@@ -1,0 +1,8 @@
+{
+    "appointment_id": 1,
+    "patient_name": "Anna",
+    "doctor_name": "Dr. Anil",
+    "appointment_date": "2026-10-10",
+    "time_slot": "10:00 AM - 11:00 AM",
+    "appointment_status": "Booked"
+}

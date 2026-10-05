@@ -1,0 +1,42 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Appointment",
+    "type": "object",
+
+    "properties": {
+
+        "appointment_id": {
+            "type": "integer"
+        },
+
+        "patient_name": {
+            "type": "string"
+        },
+
+        "doctor_name": {
+            "type": "string"
+        },
+
+        "appointment_date": {
+            "type": "string",
+            "format": "date"
+        },
+
+        "time_slot": {
+            "type": "string"
+        },
+
+        "appointment_status": {
+            "type": "string"
+        }
+    },
+
+    "required": [
+        "appointment_id",
+        "patient_name",
+        "doctor_name",
+        "appointment_date",
+        "time_slot",
+        "appointment_status"
+    ]
+}
